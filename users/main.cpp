@@ -4,8 +4,6 @@
 #include "stimer.h"
 
 
-typedef void (*void_func_void_t)(void *);
-
 int main(void) {
     delay_init(72);
     Led led = Led(RCC_APB2Periph_GPIOC, GPIOC, GPIO_Pin_13);
