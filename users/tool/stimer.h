@@ -12,7 +12,7 @@ class SoftwareTimer {
  private:
   uint32_t offset[TIM_NUMBER] = {};
   uint32_t temp[TIM_NUMBER] = {};
-  uint32_t exec[TIM_NUMBER] = {};
+  uint8_t exec[TIM_NUMBER] = {};
   callback_func_t func[TIM_NUMBER] = {};
   void *param[TIM_NUMBER] = {};
 
